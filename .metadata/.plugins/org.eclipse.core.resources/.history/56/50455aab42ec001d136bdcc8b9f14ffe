@@ -1,0 +1,15 @@
+package classe;
+
+public class ValorVsReferencia {
+	
+	double a = 2;
+	double b = a; // atribuição por valor (Tipo primitivo)
+	
+	a++;
+	b--;
+	
+	Data d1 = new Data(1, 6, 2022);
+	Data d2 = d1; //tribuição por referencia
+	
+	
+}

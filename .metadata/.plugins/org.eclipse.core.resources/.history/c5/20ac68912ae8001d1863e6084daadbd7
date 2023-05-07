@@ -1,0 +1,21 @@
+package fundamentos;
+
+public class DesafiosLogicos {
+	
+	public static void main(String[] args) {
+		
+		boolean trabalho1 = true;
+		boolean trabalho2 = false;
+		
+		System.out.println("TV de 50'' = ", (trabalho1 && trabalho2));
+		System.out.println("TV de 32'' = ", (trabalho1 || trabalho2));
+		System.out.println("shoping    = ", (trabalho1 || trabalho2));
+		System.out.println("sorveteria = ", (trabalho1 || trabalho2));
+		
+		
+	}
+	
+	
+
+
+}

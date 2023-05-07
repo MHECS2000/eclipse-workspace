@@ -1,0 +1,23 @@
+package fundamentos;
+
+public class TipoString {
+		
+		public static void main(String[] args) {
+			System.out.println("Olá pessoal".charAt(2));
+			
+			String s = "Boa tarde";
+			System.out.println(s.concat("!!!"));
+			System.out.println(s+"!!!");
+			System.out.println(s.startsWith("Boa"));
+			//booleano
+			System.out.println(s.toLowerCase().startsWith("boa"));
+			//booleano
+			System.out.println(s.toLowerCase().endsWith("TARDE"));
+			//booleano
+			System.out.println(s.length());
+			//vai um numero inteiro de quantidade de caracteres da string
+			System.out.println(s.toLowerCase().equals("boa tarde"));
+			System.out.println(s.equalsIgnoreCase("boa tarde"));
+		}
+	
+}

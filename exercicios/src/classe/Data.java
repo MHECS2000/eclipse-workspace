@@ -1,0 +1,18 @@
+package classe;
+
+
+public class Data {
+	public static void main(String[] args) {
+		
+		DiaMesAno data1 = new DiaMesAno(1,3,2000);		
+		
+		var data2 = new DiaMesAno(8,5,1993);		
+				
+		System.out.println("primeira data "+ data1.dataFormatada());
+		System.out.println("segunda data "+ data2.dataFormatada());
+		
+		
+		
+	}
+
+}

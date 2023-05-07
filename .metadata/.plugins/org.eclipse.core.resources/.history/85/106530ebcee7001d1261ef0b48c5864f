@@ -1,0 +1,24 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class ConversaoIstringNumero {
+	
+	public static void main(String[] args) {
+		
+		try (Scanner entrada = new Scanner(System.in)) {
+			
+			System.out.println("Informe o primeiro salario");
+			String valor1 = entrada.next().replace(",",".");
+			System.out.println("\nInforme o segundo salario");
+			System.out.println("\ninforme o terceiro salario");
+			
+			
+			entrada.close();
+		}
+		
+	
+		
+	}
+
+}
